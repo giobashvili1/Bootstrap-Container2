@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Inter";
+    src: url(./fonts/Inter-Regular.ttf);
+}
+@font-face{
+    font-family: "Light";
+    src: url(./fonts/Inter-Light.ttf);
+}
+.section1{
+    background: #111827;
+    padding-bottom: 100px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title h5{
+    width: 125px;
+    border-radius: 12px;
+    background: #374151;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.title p{
+    font-family: "Inter";
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+    
+.box1{
+    background: #1F2937;
+    box-shadow: 0px 25px 25px 0px #00000026;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 529px;
+    margin-inline: auto;
+    height: 356px;
+    gap: 24px;
+    padding: 48px 0px 0px 0px;
+    gap: 24px;
+}
+.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.txt p{
+    color: #D1D5DB;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    width: 433px;
+}
+.box1 h4{
+    color: white;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+}
+.box1 span{
+    color: #D1D5DB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.section2{
+    background: #111827;
+}
+.box3 h5{
+    color: white;
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.box3 p{
+    color: white;
+    font-family: "Light";
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 24px;
+    text-align: left;
+    width: 604px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.list li{
+    color: white;
+    font-family: "Light";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
